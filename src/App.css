@@ -1,38 +1,259 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container {
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.ez {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.shopit {
+  color: #d39cfb;
+  text-shadow: 0 0 5px #d39cfb;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.logout-btn {
+  background: none;
+  border: 2px solid #d39cfb;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.text-section {
+  max-width: 600px;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.step-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  width: 100px;
+}
+
+.dotted-line {
+  border-left: 2px dotted #fff;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.scan {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  align-self: center;
+  position: relative;
+  top: 45px;
+}
+
+.flow-chart {
+  text-align: center;
+  position: relative;
+  margin: 50px auto;
+  width: 90%;
+  max-width: 600px;
+  color: #fff;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.label {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #cc78ec;
+}
+
+.scan {
+  font-size: 2rem;
+  font-weight: bold;
   color: white;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.connectors {
+  position: relative;
+  height: 50px;
+  margin-top: -10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.dot-line {
+  position: absolute;
+  width: 2px;
+  height: 50px;
+  border-left: 2px dotted white;
+}
+
+.left-line {
+  left: 80px;
+  transform: rotate(30deg);
+  transform-origin: top left;
+}
+
+.right-line {
+  right: 80px;
+  transform: rotate(-30deg);
+  transform-origin: top right;
+}
+
+
+.choose,
+.pay {
+  color: #d39cfb;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.scan {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.description {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.scan-btn {
+  background-color: #d39cfb;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .steps {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .scan-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .shopit {
+    font-size: 1.2rem;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .choose, .pay, .scan {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .scan-btn {
+    font-size: 1rem;
+    padding: 10px;
   }
 }
