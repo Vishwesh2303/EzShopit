@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EzShopit/static/css/main.482f75fe.css",
+    "main.js": "/EzShopit/static/js/main.4806e926.js",
+    "static/js/453.9ba3a3d0.chunk.js": "/EzShopit/static/js/453.9ba3a3d0.chunk.js",
+    "static/media/20250509_1843_Barcode_Scan_in_Supermarket_simple_compose_01jttjss7feygatzt844bjhecz-removebg-preview.png": "/EzShopit/static/media/20250509_1843_Barcode_Scan_in_Supermarket_simple_compose_01jttjss7feygatzt844bjhecz-removebg-preview.a33fd910f1e7e760647a.png",
+    "index.html": "/EzShopit/index.html",
+    "main.482f75fe.css.map": "/EzShopit/static/css/main.482f75fe.css.map",
+    "main.4806e926.js.map": "/EzShopit/static/js/main.4806e926.js.map",
+    "453.9ba3a3d0.chunk.js.map": "/EzShopit/static/js/453.9ba3a3d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.482f75fe.css",
+    "static/js/main.4806e926.js"
+  ]
+}
