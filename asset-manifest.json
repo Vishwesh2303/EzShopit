@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/EzShopit/static/css/main.b11f6281.css",
+    "main.css": "/EzShopit/static/css/main.58dc1dd2.css",
     "main.js": "/EzShopit/static/js/main.110f810f.js",
     "static/js/453.9ba3a3d0.chunk.js": "/EzShopit/static/js/453.9ba3a3d0.chunk.js",
     "static/media/Screen Recording 2025-05-10 121930.mp4": "/EzShopit/static/media/Screen Recording 2025-05-10 121930.c5d694f479e598eeb06c.mp4",
     "static/media/20250509_1843_Barcode_Scan_in_Supermarket_simple_compose_01jttjss7feygatzt844bjhecz-removebg-preview.png": "/EzShopit/static/media/20250509_1843_Barcode_Scan_in_Supermarket_simple_compose_01jttjss7feygatzt844bjhecz-removebg-preview.a33fd910f1e7e760647a.png",
     "static/media/image.png": "/EzShopit/static/media/image.7acc72c140f84a711b42.png",
     "index.html": "/EzShopit/index.html",
-    "main.b11f6281.css.map": "/EzShopit/static/css/main.b11f6281.css.map",
+    "main.58dc1dd2.css.map": "/EzShopit/static/css/main.58dc1dd2.css.map",
     "main.110f810f.js.map": "/EzShopit/static/js/main.110f810f.js.map",
     "453.9ba3a3d0.chunk.js.map": "/EzShopit/static/js/453.9ba3a3d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b11f6281.css",
+    "static/css/main.58dc1dd2.css",
     "static/js/main.110f810f.js"
   ]
 }
